@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ShowMore from './ShowMore.jsx';
+import ShowHideText from './ShowHideText.jsx';
 
 const app = document.getElementById('app');
 
-ReactDOM.render(<ShowMore content="Hey There"/>, app);
+ReactDOM.render(<ShowHideText content="Hey There" charLimit={3} allowCollapse={true}/>, app);
